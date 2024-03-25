@@ -60,6 +60,7 @@ const Login = () => {
         <button type="submit">Login</button>
         {error && <div className="error">{error}</div>}
       </form>
+      <button>register</button>
     </div>
   );
 };
